@@ -1,0 +1,33 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Development Guide
+
+## Getting Started
+
+1. Install dependencies: `pnpm install`
+2. Start development server: `pnpm dev`
+3. Build for production: `pnpm build`
+
+## Key Technologies
+
+- **Vue 3**: Frontend framework with Composition API
+- **TypeScript**: For type-safe JavaScript
+- **OpenCV-TS**: TypeScript bindings for OpenCV
+- **Vite**: Build tool and development server
+
+## Project Features
+
+- Element detection using OpenCV
+- Interactive overlay on detected elements
+- Hover highlighting with custom directives
+- Detailed element information panel
+
+## Development Workflow
+
+1. OpenCV is initialized in [src/utils/opencvUtils.ts](mdc:src/utils/opencvUtils.ts)
+2. The main application logic is in [src/App.vue](mdc:src/App.vue)
+3. Element detection happens in [src/utils/autoHoverDetection.ts](mdc:src/utils/autoHoverDetection.ts)
+4. Components in [src/components/](mdc:src/components/) handle UI visualization

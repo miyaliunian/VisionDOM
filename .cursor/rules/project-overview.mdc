@@ -1,0 +1,20 @@
+---
+description: 
+globs: 
+alwaysApply: false
+---
+# Vue OpenCV Overlay Project
+
+This is a Vue 3 project that uses OpenCV to create visual overlays on elements. The project is built with Vite and TypeScript.
+
+## Main Files
+
+- Entry point: [index.html](mdc:index.html) and [src/main.ts](mdc:src/main.ts)
+- Main application component: [src/App.vue](mdc:src/App.vue)
+- Configuration: [vite.config.ts](mdc:vite.config.ts)
+
+## Key Dependencies
+
+- Vue 3
+- OpenCV-TS (TypeScript bindings for OpenCV)
+- HTML2Canvas (for capturing elements as images)

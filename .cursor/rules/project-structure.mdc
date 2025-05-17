@@ -1,0 +1,28 @@
+---
+description:
+globs:
+alwaysApply: false
+---
+# Project Structure
+
+## Directory Organization
+
+- **src/components/**: Vue components
+  - [ElementInfoPanel.vue](mdc:src/components/ElementInfoPanel.vue): Panel displaying information about detected elements
+  - [OpenCVOverlay.vue](mdc:src/components/OpenCVOverlay.vue): Component that handles the OpenCV overlay
+
+- **src/directives/**: Vue directives
+  - [highlightOnHover.ts](mdc:src/directives/highlightOnHover.ts): Directive to highlight elements on hover
+
+- **src/utils/**: Utility functions and helpers
+  - [opencvUtils.ts](mdc:src/utils/opencvUtils.ts): OpenCV initialization and utility functions
+  - [autoHoverDetection.ts](mdc:src/utils/autoHoverDetection.ts): Automatic element hover detection
+
+- **src/views/**: Main application views
+  - [HomeView.vue](mdc:src/views/HomeView.vue): Main view of the application
+
+## Application Flow
+
+1. OpenCV is initialized first in [main.ts](mdc:src/main.ts)
+2. Once initialized, the Vue application is mounted
+3. The application uses OpenCV for image processing and element detection
