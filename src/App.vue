@@ -1,7 +1,6 @@
 <template>
   <div id="app-container">
     <header>
-      <h1>OpenCV.js 元素悬停高亮演示</h1>
       <p class="subtitle">鼠标悬停时自动创建边界框和截图</p>
       <div class="controls">
         <button @click="toggleHoverDetection" :class="{ active: hoverEnabled }">
@@ -30,9 +29,9 @@ import {
   updateHoverOptions,
 } from "./utils/autoHoverDetection";
 
-const hoverEnabled = ref(false);
-const autoDownload = ref(true);
-const showInfoPanel = ref(true);
+const hoverEnabled = ref(true);
+const autoDownload = ref(false);
+const showInfoPanel = ref(false);
 
 const toggleHoverDetection = () => {
   hoverEnabled.value = !hoverEnabled.value;
