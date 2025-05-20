@@ -15,14 +15,14 @@
       </div>
     </header>
     <main>
-      <HomeView />
+      <router-view />
     </main>
   </div>
 </template>
 
 <script setup lang="ts">
 import { ref, onMounted } from "vue";
-import HomeView from "./views/HomeView.vue";
+// import HomeView from "./views/HomeView.vue";
 import {
   enableAutoHoverDetection,
   disableAutoHoverDetection,

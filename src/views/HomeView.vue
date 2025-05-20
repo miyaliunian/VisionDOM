@@ -6,7 +6,11 @@
     </p>
 
     <div class="grid-container">
-      <div class="interactive-box featured" style="background-color: #42b983">
+      <div
+        class="interactive-box featured"
+        style="background-color: #42b983"
+        data-comp-desc="特色方块，带有图标和更多内容"
+      >
         <div class="box-content">
           <div class="icon-wrapper">
             <svg
@@ -30,7 +34,11 @@
         </div>
       </div>
 
-      <div class="interactive-box card-style" style="background-color: #2c3e50">
+      <div
+        class="interactive-box card-style"
+        style="background-color: #2c3e50"
+        data-comp-desc="卡片式设计，带有标题和内容区域"
+      >
         <div class="card-header">
           <span class="card-badge">新</span>
           <h3>方块 2</h3>
@@ -43,7 +51,10 @@
         </div>
       </div>
 
-      <div class="interactive-box gradient-box">
+      <div
+        class="interactive-box gradient-box"
+        data-comp-desc="渐变背景，展示统计信息"
+      >
         <div class="gradient-content">
           <h3>方块 3</h3>
           <div class="stats">
@@ -59,7 +70,10 @@
         </div>
       </div>
 
-      <div class="interactive-box image-box">
+      <div
+        class="interactive-box image-box"
+        data-comp-desc="带有背景图片的方块"
+      >
         <img
           src="https://images.unsplash.com/photo-1579546929518-9e396f3cc809?w=500&auto=format&fit=crop&q=60"
           alt="抽象背景"
@@ -70,15 +84,27 @@
         </div>
       </div>
 
-      <div class="interactive-box" style="background-color: #8e44ad80">
+      <div
+        class="interactive-box"
+        style="background-color: #8e44ad80"
+        data-comp-desc="普通方块 5"
+      >
         方块 5
       </div>
 
-      <div class="interactive-box" style="background-color: #e74c3c80">
+      <div
+        class="interactive-box"
+        style="background-color: #e74c3c80"
+        data-comp-desc="普通方块 6"
+      >
         <div>方块 6</div>
       </div>
     </div>
-
+    <div>iframe节点</div>
+    <iframe
+      src="http://localhost:5173/#/complex-svg-layout"
+      style="width: 100%; height: 800px"
+    ></iframe>
     <div class="image-container">
       <img
         src="https://images.unsplash.com/photo-1533738363-b7f9aef128ce?q=80&w=400&auto=format&fit=crop"
